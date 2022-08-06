@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="header | paddings">
+        <nav class="nav | paddings">
+          <img class="svg" src="./images/logo.svg" width="100" alt="Huddle" />
+          <button class="btn | clr-light-pink bg-white">Try it free</button>
+        </nav>
+        <h1 class="main-header | header-font">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="paragraph">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="btn-lg">Get Started For Free</button>
+      </header>
+      <section class="showcase-section">
+        <img
+          class="mockups | paddings"
+          src="./images/screen-mockups.svg"
+          alt="screen mockups"
+        />
+        <div class="flex | paddings">
+          <div class="flex-content | paddings">
+            <img class="| icon" src="./images/icon-communities.svg" alt="" />
+            <h2 class="| largest-font">1.4k+</h2>
+            <p class="| paragraph fw-400">Communities Formed</p>
+          </div>
+          <div class="flex-content | paddings">
+            <img class="| icon" src="./images/icon-messages.svg" alt="" />
+            <h2 class="| largest-font">2.7m+</h2>
+            <p class="| paragraph fw-400">Messages Sent</p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section__grow-together | flex bg-pale-blue"
+        data-type="inverted"
+      >
+        <img
+          class="illustrations | flex-content paddings"
+          src="./images/illustration-grow-together.svg"
+          alt="Grow together illustration"
+        />
+        <div class="flex-content | paddings">
+          <h2 class="header-font">Grow Together</h2>
+          <p class="paragraph">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+      </section>
+      <section class="section__flowing-conversation | flex">
+        <img
+          class="illustrations | flex-content paddings"
+          src="./images/illustration-flowing-conversation.svg"
+          alt="flowing conversation illustration"
+        />
+        <div class="illustrations | flex-content paddings">
+          <h2 class="header-font">Flowing Conversations</h2>
+          <p class="paragraph">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+      </section>
+      <section class="section__your-users | flex bg-pale-blue" data-type="inverted">
+        <img
+          class="illustrations paddings"
+          src="./images/illustration-your-users.svg"
+          alt="your user illustrations"
+        />
+        <div class="flex-content paddings">
+          <h2 class="header-font">Your Users</h2>
+          <p class="paragraph">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+      </section>
+      <section class="section__ready-to-build | header paddings" >
+        <p class="main-header | header-font" data-type="reduced-padding">Ready To Build Your Community?</p>
+        <button class="btn-lg" data-type="pre-footer" type="submit">Get Started For Free</button>
+      </section>
+    </main>
+    <footer class="footer | clr-white bg-dark-cyan">
+      <section class="Newsletter | paddings">
+        <h2 class="main-header">NEWSLETTER</h2>
+        <p class="paragraph" data-type="footer-paragraph" >
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address
+        </p>
+        <form class="email-form">
+          <input type="email" name="email" id="email" required />
+          <button class="btn-lg edged" type="submit">Subscribe</button>
+        </form>
+      </section>
+      <section class="footer-sec | paddings">
+        <img src="./images/footer-logo.svg" width="200" alt="Huddle">
+        <p class="paragraph" data-type="footer-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <div class="contact">
+          <img src="./images/icon-phone.svg" alt="Phone icon"/>
+          <p class="paragraph">Phone: +1-543-123-4567</p>
+        </div>
+        <div class="contact">
+          <img src="./images/icon-email.svg" alt="email icon"/>
+          <p class="paragraph">example@huddle.com</p>
+        </div>
+        <div class="contact icons" aria-label="social links">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <img src="./images/" alt="instagram"/>
+          <img src="./images/" alt="twitter"/>
+        </div>
+      </section>
+    </footer>
+    <footer>
+      <p class="attribution | paragraph">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Okeoghene John</a>.
+      </p>
+    </footer>
+  </body>
+</html>
