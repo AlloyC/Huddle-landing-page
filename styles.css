@@ -205,7 +205,8 @@ input[type="email"] {
 }
 
 .header-font[data-type="reduced-padding"] {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
 }
 
 :after {
