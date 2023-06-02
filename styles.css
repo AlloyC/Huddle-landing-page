@@ -69,11 +69,13 @@
 
 .showcase-section {
   position: relative;
+  padding-bottom: 80px;
 }
 
 .showcase-section:after {
   background-image: url("./images/bg-section-top-mobile-1.svg");
-  min-height: 105px;
+  height: 20%;
+  max-height: 260px;
 }
 
 @media (min-width: 40rem) {
@@ -84,68 +86,68 @@
 
 .section__grow-together {
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 8%;
 }
 
 .section__grow-together:after {
   background-color: var(--white);
   background-image: url("./images/bg-section-bottom-mobile-1.svg");
-  min-height: 50px;
+  min-height: 10ch;
 }
 
 .section__flowing-conversation {
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 20%;
 }
 
 .section__flowing-conversation:after {
   background-color: var(--white);
   background-image: url("./images/bg-section-top-mobile-2.svg");
-  min-height: 98px;
+  height: 20%;
 }
 
 .section__your-users {
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 21%;
 }
 
 .section__your-users:after {
   background-color: var(--white);
   background-image: url("./images/bg-section-bottom-mobile-2.svg");
-  min-height: 98px;
+  height: 20%;
 }
 
 .section__ready-to-build {
   position: relative;
-  height: 350px;
+  padding-bottom: 18vw !important;
   justify-content: center;
 }
 
 .section__ready-to-build:after {
   /*background-color: var(--white);*/
   background-image: url("./images/bg-footer-top-mobile.svg");
-  min-height: 50px;
+  height: 10.5vw;
 }
 
 @media (min-width: 40rem) {
   .section__grow-together:after {
     background-image: url("./images/bg-section-bottom-desktop-1.svg");
-    min-height: 135px;
+    max-height: 139px;
+    padding-bottom: 5%;
   }
 
   .section__flowing-conversation:after {
     background-image: url("./images/bg-section-top-desktop-2.svg");
-    min-height: 100px;
+    max-height: 12ch;
+    padding-bottom: 5%;
   }
 
   .section__your-users:after {
     background-image: url("./images/bg-section-bottom-desktop-2.svg");
-    min-height: 100px;
   }
 
   .section__ready-to-build:after {
     background-image: url("./images/bg-footer-top-desktop.svg");
-    height: 110px;
   }
 }
 
@@ -153,7 +155,7 @@
   margin-top: -1px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 
@@ -282,6 +284,9 @@ input[type="email"] {
 }
 
 .illustrations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 375px;
   min-width: 50%;
 }
